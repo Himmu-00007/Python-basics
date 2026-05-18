@@ -1,6 +1,16 @@
-cp = 100
-profit_percent_of_cp = 0.20
-profit = cp * profit_percent_of_cp
-sp = cp + profit
-profit_percent_of_sp = (profit / sp) * 100
-print(f"{profit_percent_of_sp=}")
+name = input("What is your name? ")
+
+age = int(input("How old are you? "))
+
+
+print("Hello,", name + "!")
+
+if age >= 18:
+
+    print(" Congrats bro! You are an adult.")
+
+else:
+
+    print("You are a minor bro.")
+
+print("Btw, in 50 years you will be", age + 50)
