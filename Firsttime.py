@@ -1,6 +1,6 @@
 while True:
     password = input("Enter password:")
-    if password == ("Gori@16#2066*"):
+    if password == ("759083"):
         print ("Unlocking...please wait!")
         break
     else:
