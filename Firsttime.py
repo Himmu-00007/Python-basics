@@ -1,7 +1,11 @@
 while True:
-    password = input("Enter password:")
-    if password == ("759083"):
+    password = input("Enter password: ")
+    if password == ("Gori@16#2066*"):
         print ("Unlocking...please wait!")
-        break
+        print ("Bro, I thought you missed the password for the 67th time. Congrats bro, now you're the real minder!")
+        verify= input("Crush ko id chahiyo vane aafno birth date hala bro, I just want to verify if you are Himmu or not, USE '-' SIGN FOR SEPARATION: ")
+        if verify==("2066-08-13"):
+            print ("oh, so u r Himmu. I'll tell you your crush's id in college. See you soon!,<3")
+            break
     else:
         print ("Wrong password! Try again!")
