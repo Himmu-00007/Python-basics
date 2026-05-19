@@ -1,16 +1,7 @@
-name = input("What is your name? ")
-
-age = int(input("How old are you? "))
-
-
-print("Hello,", name + "!")
-
-if age >= 18:
-
-    print(" Congrats bro! You are an adult.")
-
-else:
-
-    print("You are a minor bro.")
-
-print("Btw, in 50 years you will be", age + 50)
+while True:
+    password = input("Enter password:")
+    if password == ("Gori@16#2066*"):
+        print ("Unlocking...please wait!")
+        break
+    else:
+        print ("Wrong password! Try again!")
