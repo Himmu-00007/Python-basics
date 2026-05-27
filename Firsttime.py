@@ -1,4 +1,4 @@
-while True:
+print ("Please pay attention!")while True:
     password = input("Enter password: ")
     if password == ("Gori@16#2066*"):
         print ("Unlocking...please wait!")
