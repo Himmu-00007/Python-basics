@@ -1,3 +1,4 @@
+print ("Loading...")
 print ("Please pay attention!")
 while True:
     password = input("Enter password: ")
