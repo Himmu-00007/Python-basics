@@ -1,13 +1,16 @@
-print ("Loading...")
-print ("Please pay attention!")
-while True:
-    password = input("Enter password: ")
-    if password == ("Gori@16#2066*"):
-        print ("Unlocking...please wait!")
-        print ("Bro, I thought you missed the password for the 67th time. Congrats bro, now you're the real minder!")
-        verify= input("Crush ko id chahiyo vane usko birth date hala bro, I just want to verify if you are Himmu or not, Use '-' Sign for separation⚠️: ")
-        if verify==("2066-08-13"):
-            print ("oh, so u r Himmu. I'll tell you your crush's id in college. See you soon!,<3")
-            break
-    else:
-        print ("Wrong password! Try again!")
+A=input("What's your gender?(M/F) ")
+if A=="M":
+    S="Sir"
+else:
+    S="Madam"
+E=input("Write an essay on the topic of 'National Pride': ")
+length=len(E)
+print("                                                                 Length of this essay is:", length)
+X=input("Want the half of the essay?(Y/N)")
+P=E[0:length//2]
+if X=="Y":
+    print(P)
+else:
+    print("                                                                     Understood,", S+"!")
+
+
