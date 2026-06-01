@@ -12,5 +12,7 @@ if X=="Y":
     print(P)
 else:
     print("                                                                     Understood,", S+"!")
+print("Thank you for using this program, "+S+"!")
+print("Press alt+F4 to exit")
 
 
