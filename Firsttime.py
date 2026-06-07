@@ -1,4 +1,4 @@
-print("Welcome to the Essay Writing Program!")
+print("Welcome to the Essay Writing Program!😊")
 B = input("Do you want to continue? (Y/N) ")
 if B == "Y":
     O = input("What's your name? ")
