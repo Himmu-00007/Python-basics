@@ -1,16 +1,16 @@
 print("Welcome to the Essay Writing Program!😊")
-B = input("Do you want to continue? (Y/N) ")
+B = input("Do you want to continue? (Y/N)🤔 ")
 if B == "Y":
-    O = input("What's your name? ")
-    A = input("What's your gender?(M/F) ")
+    O = input("What's your name?🧐 ")
+    A = input("What's your gender?(M/F)🧐 ")
     if A == "M":
         S = "Sir"+"♂️"
     else:
         S = "Madam"+"♀️"
-    E = input("Write an essay on the topic of 'National Pride': ")
+    E = input("Write an essay on the topic of 'National Pride'😊: ")
     length = len(E)
     print("                                                                 Length of this essay is:", length)
-    X = input("Want the half of the essay?(Y/N) ")
+    X = input("Want the half of the essay?(Y/N)🧐 ")
     P = E[0:length//2]
     if X == "Y":
         print(P)
