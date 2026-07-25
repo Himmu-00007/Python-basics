@@ -6,10 +6,12 @@ def main():
         print("Okay, goodbye 😊")
         print("Press alt+F4 to exit 👍")
         return
-name = input("What's your name? 🧐 ").strip()
-gender = input("What's your gender? (M/F) 🧐 ").strip().upper()
+
+    name = input("What's your name? 🧐 ").strip()
+    gender = input("What's your gender? (M/F) 🧐 ").strip().upper()
     title = "Sir ♂️" if gender == "M" else "Madam ♀️"
-       essay = input("Write an essay on the topic of 'National Pride' 😊: ")
+
+    essay = input("Write an essay on the topic of 'National Pride' 😊: ")
     length = len(essay)
     print(f"Length of this essay is: {length}")
 
@@ -25,3 +27,5 @@ gender = input("What's your gender? (M/F) 🧐 ").strip().upper()
     print("Press alt+F4 to exit 👍")
 
 
+if __name__ == "__main__":
+    main()
