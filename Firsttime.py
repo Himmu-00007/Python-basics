@@ -9,14 +9,19 @@ def main():
 name = input("What's your name? 🧐 ").strip()
 gender = input("What's your gender? (M/F) 🧐 ").strip().upper()
     title = "Sir ♂️" if gender == "M" else "Madam ♀️"
-    E = input("Write an essay on the topic of 'National Pride'😊: ")
-    length = len(E)
-    print("                                                                 Length of this essay is:", length)
-    X = input("Want the half of the essay?(Y/N)🧐 ")
-    P = E[0:length//2]
-    if X == "Y":
-        print(P)
+       essay = input("Write an essay on the topic of 'National Pride' 😊: ")
+    length = len(essay)
+    print(f"Length of this essay is: {length}")
+
+    show_half = input("Want the half of the essay? (Y/N) 🧐 ").strip().upper()
+    half_essay = essay[:length // 2]
+
+    if show_half == "Y":
+        print(half_essay)
     else:
-        print("                                                                     Understood,", S + "!")
-    print("Thank you for your time, " + S + ", " + O + "!")
+        print(f"Understood, {title}!")
+
+    print(f"Thank you for your time, {title}, {name}!")
+    print("Press alt+F4 to exit 👍")
+
 
