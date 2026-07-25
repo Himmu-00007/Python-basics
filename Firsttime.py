@@ -6,14 +6,9 @@ def main():
         print("Okay, goodbye 😊")
         print("Press alt+F4 to exit 👍")
         return
-B = input("Do you want to continue? (Y/N)🤔 ")
-if B == "Y":
-    O = input("What's your name?🧐 ")
-    A = input("What's your gender?(M/F)🧐 ")
-    if A == "M":
-        S = "Sir"+"♂️"
-    else:
-        S = "Madam"+"♀️"
+name = input("What's your name? 🧐 ").strip()
+gender = input("What's your gender? (M/F) 🧐 ").strip().upper()
+    title = "Sir ♂️" if gender == "M" else "Madam ♀️"
     E = input("Write an essay on the topic of 'National Pride'😊: ")
     length = len(E)
     print("                                                                 Length of this essay is:", length)
