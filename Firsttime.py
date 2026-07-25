@@ -1,4 +1,11 @@
-print("Welcome to the Essay Writing Program!😊")
+def main():
+    print("Welcome to the Essay Writing Program! 😊")
+
+    continue_choice = input("Do you want to continue? (Y/N) 🤔 ").strip().upper()
+    if continue_choice != "Y":
+        print("Okay, goodbye 😊")
+        print("Press alt+F4 to exit 👍")
+        return
 B = input("Do you want to continue? (Y/N)🤔 ")
 if B == "Y":
     O = input("What's your name?🧐 ")
@@ -17,8 +24,4 @@ if B == "Y":
     else:
         print("                                                                     Understood,", S + "!")
     print("Thank you for your time, " + S + ", " + O + "!")
-else:
-    print("Okay, goodbye😊")
-print("Press alt+F4 to exit👍")
-
 
